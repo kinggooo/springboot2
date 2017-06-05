@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springboot-db-mysql" />
         <module name="springboot-hello" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="springboot" target="1.6" />
-      <module name="springboot-hello" target="1.6" />
+      <module name="springboot" target="1.8" />
+      <module name="springboot-db-mysql" target="1.8" />
+      <module name="springboot-hello" target="1.8" />
       <module name="springboot-parent" target="1.6" />
     </bytecodeTargetLevel>
   </component>

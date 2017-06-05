@@ -8,6 +8,7 @@
 
     <modules>
         <module>springboot-hello</module>
+        <module>springboot-db-mysql</module>
     </modules>
 
     <parent>
@@ -18,7 +19,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <junit.version>4.8.2</junit.version>
+        <!--<junit.version>4.8.2</junit.version>-->
+        <java.version>1.8</java.version>
     </properties>
 
     <dependencyManagement>
@@ -31,4 +33,19 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 </project>
