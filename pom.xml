@@ -11,6 +11,7 @@
         <module>springboot-db-mysql</module>
         <module>eureka-server</module>
         <module>springboot-consumer</module>
+        <module>springboot-tools</module>
     </modules>
 
     <parent>

@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-consumer/springboot-consumer.iml" filepath="$PROJECT_DIR$/springboot-consumer/springboot-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-db-mysql/springboot-db-mysql.iml" filepath="$PROJECT_DIR$/springboot-db-mysql/springboot-db-mysql.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-hello/springboot-hello.iml" filepath="$PROJECT_DIR$/springboot-hello/springboot-hello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-tools/springboot-tools.iml" filepath="$PROJECT_DIR$/springboot-tools/springboot-tools.iml" />
     </modules>
   </component>
 </project>

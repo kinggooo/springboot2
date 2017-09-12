@@ -10,6 +10,7 @@
         <module name="springboot-consumer" />
         <module name="springboot-db-mysql" />
         <module name="springboot-hello" />
+        <module name="springboot-tools" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +20,7 @@
       <module name="springboot-db-mysql" target="1.8" />
       <module name="springboot-hello" target="1.8" />
       <module name="springboot-parent" target="1.6" />
+      <module name="springboot-tools" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
