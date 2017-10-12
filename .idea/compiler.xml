@@ -31,6 +31,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eureka-server" target="1.8" />
+      <module name="spring-batch" target="1.8" />
       <module name="springboot" target="1.8" />
       <module name="springboot-consumer" target="1.8" />
       <module name="springboot-db-mysql" target="1.8" />
