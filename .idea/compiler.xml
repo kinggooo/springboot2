@@ -23,7 +23,6 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="eureka-server" />
-        <module name="springboot-batch" />
         <module name="springboot-consumer" />
         <module name="springboot-db-mysql" />
         <module name="springboot-hello" />
